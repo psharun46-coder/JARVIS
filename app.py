@@ -6,7 +6,7 @@ from google.genai import types
 app = Flask(__name__)
 
 # Configure API Key
-api_key = "***********************"
+api_key = "************************"
 if not api_key:
     print("API Key required.")
     exit()
